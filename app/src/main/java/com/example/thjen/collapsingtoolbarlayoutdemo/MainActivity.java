@@ -3,6 +3,10 @@ package com.example.thjen.collapsingtoolbarlayoutdemo;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Slide;
+import android.transition.TransitionInflater;
+import android.transition.TransitionManager;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -46,5 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
     }
+
 }
